@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="권순원">
-<meta name="dcterms.date" content="2024-12-26">
+<meta name="dcterms.date" content="2025-01-01">
 
-<title>hw1 – 여러가지 리눅스 명령어 – publish 사용 – DSTBX2025</title>
+<title>hw1 – 여러가지 리눅스 명령어 – DSTBX2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">hw1 – 여러가지 리눅스 명령어 – publish 사용</h1>
+<h1 class="title">hw1 – 여러가지 리눅스 명령어</h1>
 </div>
 
 
@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 26, 2024</p>
+      <p class="date">January 1, 2025</p>
     </div>
   </div>
   
@@ -180,70 +180,74 @@ ul.task-list li input[type="checkbox"] {
 <section id="head-파일의-처음-몇-줄-출력" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> 1. head: 파일의 처음 몇 줄 출력</h1>
 <p>head -n 3 sample.txt</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="hw1_files/figure-html/cell-3-1-image.png" class="img-fluid figure-img"></p>
-<figcaption>image.png</figcaption>
-</figure>
-</div>
+<p><img src="hw1_files/figure-html/cell-3-1-image.png" class="img-fluid"></p>
 </section>
 <section id="tail-파일의-마지막-몇-줄-출력" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> 2. tail: 파일의 마지막 몇 줄 출력</h1>
 <p>tail -n 3 sample.txt</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="hw1_files/figure-html/cell-5-1-image.png" class="img-fluid figure-img"></p>
-<figcaption>image.png</figcaption>
-</figure>
-</div>
+<p><img src="hw1_files/figure-html/cell-5-1-image.png" class="img-fluid"></p>
 </section>
 <section id="cat-파일-내용-출력" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> 3. cat: 파일 내용 출력</h1>
 <p>cat sample.txt</p>
+<p><img src="hw1_files/figure-html/cell-7-1-image.png" class="img-fluid"></p>
 </section>
 <section id="cat-파일-합치기" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> cat: 파일 합치기</h1>
 <p>cat file1.txt file2.txt &gt; combined.txt</p>
+<p><img src="hw1_files/figure-html/cell-9-1-image.png" class="img-fluid"></p>
 </section>
 <section id="df--h-디스크-사용량-확인" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> 4. df -h: 디스크 사용량 확인</h1>
 <p>df -h</p>
+<p><img src="hw1_files/figure-html/cell-11-1-image.png" class="img-fluid"></p>
 </section>
 <section id="du--sh-디렉토리-및-파일-크기-확인" class="level1" data-number="7">
 <h1 data-number="7"><span class="header-section-number">7</span> 5. du -sh *: 디렉토리 및 파일 크기 확인</h1>
 <p>du -sh *</p>
+<p><img src="hw1_files/figure-html/cell-13-1-image.png" class="img-fluid"></p>
 </section>
 <section id="nvidia-smi-gpu-상태-확인" class="level1" data-number="8">
 <h1 data-number="8"><span class="header-section-number">8</span> 6. nvidia-smi: GPU 상태 확인</h1>
 <p>nvidia-smi</p>
+<p><img src="hw1_files/figure-html/cell-15-1-image.png" class="img-fluid"></p>
+<p>참고) 학과서버</p>
+<p><img src="hw1_files/figure-html/cell-17-1-image.png" class="img-fluid"></p>
 </section>
 <section id="ps-aux-현재-실행-중인-프로세스-확인" class="level1" data-number="9">
 <h1 data-number="9"><span class="header-section-number">9</span> 7. ps aux: 현재 실행 중인 프로세스 확인</h1>
 <p>ps aux</p>
+<p><img src="hw1_files/figure-html/cell-19-1-image.png" class="img-fluid"></p>
 </section>
 <section id="grep-특정-문자열-검색" class="level1" data-number="10">
 <h1 data-number="10"><span class="header-section-number">10</span> 8. grep: 특정 문자열 검색</h1>
 <p>grep “error” sample.txt</p>
+<p><img src="hw1_files/figure-html/cell-21-1-image.png" class="img-fluid"></p>
 </section>
 <section id="파이프를-사용하여-명령어-결합" class="level1" data-number="11">
 <h1 data-number="11"><span class="header-section-number">11</span> 9. |: 파이프를 사용하여 명령어 결합</h1>
 <p>ps aux | grep python</p>
+<p><img src="hw1_files/figure-html/cell-23-1-image.png" class="img-fluid"></p>
 </section>
 <section id="출력-결과를-파일로-저장" class="level1" data-number="12">
 <h1 data-number="12"><span class="header-section-number">12</span> 10. &gt;: 출력 결과를 파일로 저장</h1>
 <p>df -h &gt; disk_usage.txt</p>
+<p><img src="hw1_files/figure-html/cell-25-1-image.png" class="img-fluid"></p>
 </section>
 <section id="which-명령어의-실행-파일-경로-확인" class="level1" data-number="13">
 <h1 data-number="13"><span class="header-section-number">13</span> 11. which: 명령어의 실행 파일 경로 확인</h1>
 <p>which python</p>
+<p><img src="hw1_files/figure-html/cell-27-1-image.png" class="img-fluid"></p>
 </section>
 <section id="find-파일-검색" class="level1" data-number="14">
 <h1 data-number="14"><span class="header-section-number">14</span> 12. find: 파일 검색</h1>
 <p>find . -name “sample.txt”</p>
+<p><img src="hw1_files/figure-html/cell-29-1-image.png" class="img-fluid"></p>
 </section>
 <section id="pwd-현재-위치-확인" class="level1" data-number="15">
 <h1 data-number="15"><span class="header-section-number">15</span> 13. pwd: 현재 위치 확인</h1>
 <p>pwd</p>
+<p><img src="hw1_files/figure-html/cell-31-1-image.png" class="img-fluid"></p>
 
 
 </section>
