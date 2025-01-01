@@ -1,0 +1,5 @@
+Content of file1 starts here.
+It includes a few lines of text.
+Here is one more line in file1.sThis is file2's first line.
+Adding more content to file2.
+Yet another line to complete file2.
